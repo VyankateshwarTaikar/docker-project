@@ -10,4 +10,4 @@ RUN cp -rvf avalon/* .
 RUN rm -rf avalon avalon.zip
 ENTRYPOINT ["/usr/sbin/apache2ctl"]
 CMD ["-D", "FOREGROUND"]
-EXPOSE 
+EXPOSE 80
